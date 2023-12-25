@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist",
+    "rootDirs": ["./src", "./spec"],
+    "strict": false
+  },
+  "include": ["src/**/*.ts", "spec/**/*.ts", "src/utils/connect"],
+  "exclude": ["node_modules"]
+}
